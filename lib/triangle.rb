@@ -28,11 +28,13 @@ class Triangle
         return :isosceles
       else
         return :scalene
+        if @triangle_sides.uniq.length == 0
+          raise TriangleError
         end
       end
       
       Class TriangleError < StandardError
-      "This is an illegal Triangle!"
+      #"This is an illegal Triangle!"
     end
   end
 end
