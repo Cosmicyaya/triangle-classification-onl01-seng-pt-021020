@@ -22,8 +22,6 @@ class Triangle
 
   def kind
     if valid?
-      if @triangle_sides.uniq.length == 0
-        raise :TriangleError
       if @triangle_sides.uniq.length == 1
         return :equilateral
       elsif @triangle_sides.uniq.length == 2
