@@ -33,6 +33,9 @@ class Triangle
         end
       end
       
+      
+      
+      
       class TriangleError < StandardError
       #"This is an illegal Triangle!"
     end
