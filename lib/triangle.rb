@@ -37,4 +37,5 @@ class Triangle
       #"This is an illegal Triangle!"
     end
   end
-  
+end
+end
