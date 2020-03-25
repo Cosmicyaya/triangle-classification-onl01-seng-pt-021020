@@ -37,6 +37,3 @@ end
           raise TriangleError
         end
       end
-    end
-  end
-end
