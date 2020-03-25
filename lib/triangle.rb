@@ -32,9 +32,3 @@ class Triangle
           raise TriangleError
         end
       end
-      
-      class TriangleError < StandardError
-      #"This is an illegal Triangle!"
-    end
-  end
-end
