@@ -28,7 +28,7 @@ class Triangle
         return :isosceles
       else
         return :scalene
-        if @triangle_sides.uniq.length == 0
+        if @triangle_sides.uniq.size == 0
           raise TriangleError
         end
       end
